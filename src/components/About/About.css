@@ -1,0 +1,96 @@
+.about {
+  padding: 80px 0;
+  max-width: 1232px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.about__avatar {
+  min-width: 464px;
+  min-height: 464px;
+  border-radius: 50%;
+  margin-right: 56px;
+  background-image: url('../../images/avatarPoet.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.about__author {
+  text-align: left;
+  max-width: 600px;
+  margin: 50px 0 0 0;
+}
+
+.about__author-title {
+  font-family: "Roboto Slab", "Arial", sans-serif;
+  font-size: 40px;
+  line-height: 46px;
+  font-weight: normal;
+  color: #1A1B22;
+  margin: 0 24px 0 0 ;
+}
+
+.about__author-description {
+  font-family: "Roboto", "Arial", sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+  color: #1A1B22;
+}
+
+@media screen and (max-width: 1312px) {
+  .about {
+    margin: 0 40px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .about {
+    padding: 40px 0;
+  }
+
+  .about__avatar {
+    min-width: 232px;
+    min-height: 232px;
+    margin: 20px 32px 0 0;
+  }
+
+  .about__author {
+    margin: 0;
+  }
+
+  .about__author-title {
+    font-size: 30px;
+    line-height: 40px;
+  }
+
+  .about__author-description {
+    margin: 16px 0;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .about {
+    padding: 32px 0 80px;
+    margin: 0 16px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .about__avatar {
+    min-width: 272px;
+    min-height: 272px;
+    margin: 0 0 24px 0;
+  }
+
+  .about__author-title {
+    margin: 0 0 16px;
+  }
+
+  .about__author-description {
+    margin: 0 0 24px 0;
+  }
+
+  .about__author-description:last-of-type {
+    margin: 0;
+  }
+}

@@ -1,0 +1,16 @@
+.popup__change-auth {
+  font-family: "Roboto", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  color: #2F71E5;
+  margin: 0 36px 51px;
+}
+
+
+.popup__change-auth:hover {
+  transition: .2s;
+  color: #347EFF;
+  cursor: pointer;
+}
