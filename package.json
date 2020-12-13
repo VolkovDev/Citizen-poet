@@ -18,7 +18,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "scp -r ./build/* turetskaya@84.201.136.50:/home/turetskaya/news-frontend"
+    "deploy": "scp -r ./build/* VolkovDev@84.201.136.50:/home/VolkovDev/Citizen-poet"
   },
   "eslintConfig": {
     "extends": [
